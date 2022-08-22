@@ -16,8 +16,6 @@ import java.text.SimpleDateFormat
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-        val btnDatePicker
         btnDatePicker.setOnClickListener { view ->
             clickDatePicker(view)
 
